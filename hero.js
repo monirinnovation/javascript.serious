@@ -73,6 +73,6 @@ if( price < 300 ){
    console.log( 'Give me');
 }   
 
-if (13 < 10) {
+if (8 < 10) {
   console.log( is it ok);
 }
