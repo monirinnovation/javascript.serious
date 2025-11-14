@@ -68,11 +68,122 @@
   */
 
 
-let price = 250 ;
-if( price < 300 ){
-   console.log( 'Give me');
-}   
+// let price = 250 ;
+// if( price < 300 ){
+//    console.log( 'Give me');
+// }   
 
-if (8 < 10) {
-  console.log( is it ok);
+// if (8 < 10) {
+//   console.log( "is it ok");
+// }
+
+// const salary = 25000 ;
+// const isBCS =  true ;
+// if (salary > 20000) {
+//   console.log( "su-----patro");
+// }
+
+// else{
+//   console.log ("no----way");
+// }
+
+
+
+
+
+// const price = 5000 ; 
+// if (price >= 5000){
+
+//   const discount = price * 10 / 100;
+//   const payAmount = price - discount ;
+//   console.log(payAmount);
+// }
+
+
+// const age = 18 ;
+ 
+// age >= 18 ? console.log ('Vote dio') : console.log ('Ghumai thako')
+
+
+// let pri = 5000 ;
+// if ( isLeader === true){
+//   if (pri > 1000){
+//     pri = pri / 2
+//   }
+// }
+// else {
+//   pri = pri ;
+// }
+// console.log( pri)
+
+
+// let isLeader = false ; 
+// if (isLeader){
+//   console.log("chair saro")
+// }
+// else{
+//   console.log("dukte dibi na");
+// }
+
+
+let isPassed = false ;
+if(!isPassed){
+  console.log("shona moni")
+}
+else{
+  console.log("biya")
+}
+
+let isPasse = false ;
+if (! isPasse){
+  console.log('tumi amar noyoner momi')
+}
+
+else {
+  console.log('biya diya dimu')
+}
+
+
+let x = 8;
+if (x > 8 ){
+  console.log('it is big number');
+}
+else if (x == 8){
+  console.log('it is equal number');
+}
+
+else{
+  
+ console.log('it is small number');
+}
+
+
+
+let shoppingDone = true ;
+
+
+if (shoppingDone === false){
+  console.log('Child will get allowance 10 tk')
+
+}
+else (
+  console.log('Child will get 5 tk')
+)
+
+
+let weather = 'l' ;
+if (weather == 'sunny'){
+  console.log('Good i like it ')
+}
+
+else if (weather == 'rainy'){
+  console.log('my wife like it ')
+}
+
+else if (weather == 'overcast'){
+  console.log(' better')
+}
+
+else {
+  console.log('i do not know')
 }
