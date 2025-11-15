@@ -187,3 +187,13 @@ else if (weather == 'overcast'){
 else {
   console.log('i do not know')
 }
+
+
+
+let burger = 600 ;
+if (burger > 500 ){
+  console.log ('You will get free coke')
+}
+else {
+  console.log('Coke price is 30 tk')
+}
