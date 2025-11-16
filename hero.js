@@ -221,3 +221,34 @@ else {
 }
 
 
+const numbers = [ 12, 34, 56, 78, 90]
+console.log(numbers[3])
+
+numbers [1] = 500;
+
+console.log(numbers)
+
+
+let ages = [98, 87, 65, 74, 43, 21]
+console.log(ages);
+ages.push(1000);
+console.log(ages);
+
+
+let friends = ['balam', 'kalam', 'salam', ]
+console.log(friends)
+
+friends. push('gelam');
+console.log(friends)
+
+friends.pop()
+console.log(friends)
+friends.pop()
+console.log(friends)
+
+
+
+let fruits = [ 'apple', 'comola', 'piyara', 'chalta']
+
+console.log( fruits.includes('apple'))
+console.log(fruits.indexOf('comola'))
