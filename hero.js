@@ -252,3 +252,41 @@ let fruits = [ 'apple', 'comola', 'piyara', 'chalta']
 
 console.log( fruits.includes('apple'))
 console.log(fruits.indexOf('comola'))
+
+console.log( Array.isArray(fruits))
+console.log( Array.isArray(ages))
+
+
+
+let laptop = [ 'intel', 'bintel', 'ghintel', 'mintel'];
+
+console.log(laptop);
+
+
+
+// let mobile = [ 'Apple', 'Techno', 
+//   'Realme', 'Samsung' ];
+
+//   console.log(mobile);
+
+
+// let mobile = ['Apple', 'Techno', 'Realme', 'Samsung'];
+// console.log(mobile)
+// console.log(mobile[0])
+// console.log(mobile[3])
+// mobile.push('Vibo');
+// console.log(mobile);
+// mobile.unshift('Oppo');
+// console.log(mobile);
+
+let mobile = [ 'Apple', 'Techno', 'Realme', 'Samsung'];
+console.log(mobile);
+console.log(mobile[2])
+mobile.push('Vibo');
+console.log(mobile);
+mobile.unshift('Oppo');
+console.log(mobile);
+mobile.pop();
+console.log(mobile);
+mobile.shift();
+console.log(mobile);
