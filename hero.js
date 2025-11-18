@@ -279,14 +279,47 @@ console.log(laptop);
 // mobile.unshift('Oppo');
 // console.log(mobile);
 
-let mobile = [ 'Apple', 'Techno', 'Realme', 'Samsung'];
+// let mobile = [ 'Apple', 'Techno', 'Realme', 'Samsung'];
+// console.log(mobile);
+// console.log(mobile[2])
+// mobile.push('Vibo');
+// console.log(mobile);
+// mobile.unshift('Oppo');
+// console.log(mobile);
+// mobile.pop();
+// console.log(mobile);
+// mobile.shift();
+// console.log(mobile);
+
+
+let mobile = [ 'Apple', 'Techno', 'Realme', 
+  'Samsung'];
 console.log(mobile);
-console.log(mobile[2])
 mobile.push('Vibo');
 console.log(mobile);
 mobile.unshift('Oppo');
 console.log(mobile);
-mobile.pop();
+mobile.pop()
 console.log(mobile);
 mobile.shift();
 console.log(mobile);
+console.log(mobile[2]);
+console.log(mobile.includes('Realme'));
+console.log(mobile.indexOf('Samsung'));
+mobile [1] = 'Itel'
+console.log(mobile);
+mobile [3] = 'Nokia'
+console.log(mobile)
+mobile.push('Lava');
+console.log(mobile);
+console.log(mobile.length);
+
+
+// let num = [1, 2, 3, 4, 5, 6];
+// let cut = num.slice(1,4)
+// console.log(cut);
+
+// let num = [1, 2, 4, 4, 5, 6, 7,]
+// let spl = num.splice(2, , 90, 80, 70,);
+// console.log(spl);
+
